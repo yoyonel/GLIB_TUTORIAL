@@ -1,3 +1,10 @@
 - Mise en place du projet en 100% CMake (via external project et custom command) [moyen]
 - Versionner (github) les sources de la lib préprocessor 'gob2' [facile]
 -- Placer en CMake la lib 'gob2' [dur]
+
+urls:
+- https://cmake.org/cmake/help/v3.2/module/ExternalProject.html
+- https://cmake.org/cmake/help/v3.0/command/add_custom_command.html
+- https://cmake.org/cmake/help/v3.0/command/execute_process.html
+- https://cmake.org/cmake/help/v3.2/module/ExternalProject.html
+- "2016 - CMake => ExternalProject": https://docs.google.com/document/d/18ZuioH8VKQMVnjeEimmLjkwPvOMbxyCfBrXT6KgQKZE/edit#heading=h.h9j3adwmpy73
