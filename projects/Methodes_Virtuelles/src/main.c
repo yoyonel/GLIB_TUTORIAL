@@ -8,6 +8,8 @@ int main (void)
 
     vehicule_avancer (v, 4);
 
+    vehicule_avancer_2 (v, 6);
+
     g_object_unref (v);
 
     return 0;

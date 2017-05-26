@@ -45,5 +45,6 @@ struct _VehiculePrivate
 GType vehicule_get_type (void);
 
 void vehicule_avancer (Vehicule *self, gint distance);
+void vehicule_avancer_2 (Vehicule *self, gint distance);
 
 #endif /* H_NJ_VEHICULE_261120071937 */

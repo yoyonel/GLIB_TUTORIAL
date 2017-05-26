@@ -89,6 +89,12 @@ void vehicule_avancer (Vehicule *self, gint distance)
     klass->avancer (self, distance);
 }
 
+void vehicule_avancer_2 (Vehicule *self, gint distance)
+{
+    // url: https://www.developpez.net/forums/d656612/general-developpement/programmation-systeme/linux/gtk/contribuez/programmation-orientee-objet-c-goject-classes/#post7537791
+    VEHICULE_GET_CLASS (self)->avancer (self, distance);
+}
+
 static void vehicule_rouler (Vehicule *self, gint distance)
 {
     g_print ("[virtual=vehicule_rouler](self=%ld)->avance(%d)\n", self, distance);
