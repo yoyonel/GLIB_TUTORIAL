@@ -8,7 +8,7 @@ set(CMAKE_BUILD_TYPE "Debug")
 # urls: 
 # - https://stackoverflow.com/questions/36868143/what-is-the-recommended-way-of-using-glib2-with-cmake
 # - https://github.com/nemequ/gnome-cmake/
-list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/../gnome-cmake/modules)
+list(APPEND CMAKE_MODULE_PATH $ENV{GNOME_CMAKE_MODULES})
 
 find_package(GObject REQUIRED)
 find_package(GLib REQUIRED)
