@@ -19,41 +19,6 @@ MESSAGE("- GLib_INCLUDE_DIRS: ${GLib_INCLUDE_DIRS}")
 
 include_directories(${GLib_INCLUDE_DIRS})
 
-#####################
-## Le_code_minimal ##
-#####################
-# include_directories(${CMAKE_SOURCE_DIR}/src/Le_code_minimal/include)
-
-# add_executable(
-#   Le_code_minimal
-#   src/Le_code_minimal/main.c
-#   src/Le_code_minimal/vehicule.c
-# )
-
-# # "This was trivial to fix, just a matter of adding -lgobject-2.0 to the"
-# # url: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=713688
-# target_link_libraries(
-# 	Le_code_minimal
-# 	${GObject_LIBRARY}
-# 	${GLib_LIBRARY}
-# 	)
-
-
-# add_executable(
-#   Le_code_minimal_with_macros
-#   src/Le_code_minimal/main.c
-#   src/Le_code_minimal/vehicule_with_macros.c
-# )
-
-# # "This was trivial to fix, just a matter of adding -lgobject-2.0 to the"
-# # url: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=713688
-# target_link_libraries(
-# 	Le_code_minimal_with_macros
-# 	${GObject_LIBRARY}
-# 	${GLib_LIBRARY}
-# 	)
-#####################
-
 #######################
 ## Le Code Minimal   ##
 #######################
