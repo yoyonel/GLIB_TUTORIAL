@@ -1,3 +1,5 @@
 *.tar.xz
 
 gob2-2.0.20/
+
+gob/gen
