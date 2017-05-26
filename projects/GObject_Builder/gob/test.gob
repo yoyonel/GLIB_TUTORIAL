@@ -1,0 +1,6 @@
+class Test:Object from G:Object
+{
+  public int i;
+  private int j;
+  protected int k;
+}

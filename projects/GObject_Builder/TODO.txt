@@ -1,0 +1,3 @@
+- Mise en place du projet en 100% CMake (via external project et custom command) [moyen]
+- Versionner (github) les sources de la lib préprocessor 'gob2' [facile]
+-- Placer en CMake la lib 'gob2' [dur]
