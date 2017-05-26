@@ -7,7 +7,7 @@ project("GLIB_TUTORIAL_Champs_Public" C)
 
 include_directories(include)
 
-MESSAGE( CMAKE_SOURCE_DIR : ${CMAKE_SOURCE_DIR})
+# MESSAGE( CMAKE_SOURCE_DIR : ${CMAKE_SOURCE_DIR})
 
 add_executable(
   Champs_public

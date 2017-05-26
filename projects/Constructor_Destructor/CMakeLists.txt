@@ -7,7 +7,7 @@ project("GLIB_TUTORIAL_Constructor_Destructor" C)
 
 include_directories(include)
 
-MESSAGE( CMAKE_SOURCE_DIR : ${CMAKE_SOURCE_DIR})
+# MESSAGE( CMAKE_SOURCE_DIR : ${CMAKE_SOURCE_DIR})
 
 add_executable(
   Constructor_Destructor

@@ -54,6 +54,12 @@ include_directories(${GLib_INCLUDE_DIRS})
 # 	)
 #####################
 
+#######################
+## Le Code Minimal   ##
+#######################
+add_subdirectory(projects/Le_code_minimal)
+#####################
+
 #####################
 ## Champs Public   ##
 #####################
