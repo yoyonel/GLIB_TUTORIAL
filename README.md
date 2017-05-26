@@ -11,3 +11,7 @@ Liste des samples extraits:
 6. Methodes_Virtuelles
 7. Proprietes
 8. GObject_Builder
+
+# ScreenCast
+
+[![asciicast](https://asciinema.org/a/0zcswo9erkjpzecafagw8n97s.png)](https://asciinema.org/a/0zcswo9erkjpzecafagw8n97s)
